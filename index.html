@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <!-- Google font  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --------------  -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-logo">MyWebsite</a>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#tools" class="nav-link">Tools</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <!-- <li><a href="#blog" class="nav-link">Blog</a></li> -->
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/rohit_shahi27?igsh=NWFicnN0YzBycG9r" class="social-link"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-shahi-869890383/" class="social-link"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rohitshahi540" class="social-link"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <ul class="mobile-nav-menu">
+            <li class="mobile-nav-item"><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+            <li class="mobile-nav-item"><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li class="mobile-nav-item"><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+            <!-- <li class="mobile-nav-item"><a href="#blog" class="mobile-nav-link">Blog</a></li> -->
+            <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-social">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <!-- ----------------------------------  -->
+
+    <body>
+        <header class="header1" id="home">
+            <div class="content-box">
+                <h3>Turning Data into Meaningful Insights</h3>
+                <h1>Data & Business Analytics</h1>
+                <p>
+                    Hi, I’m <strong>Rohit Shahi</strong>, an aspiring Data & Business Analytics with skills in Excel, SQL, Power BI and AI tools.
+                    I transform raw data into interactive dashboards and actionable insights to support better business
+                    decision-making.
+                </p>
+                <a href="#portfolio" class="cta-link">View My Projects</a>
+            </div>
+            <div class="image-box">
+                <img src="./Home image.png" alt="Data Analytics Hero" class="header-image">
+            </div>
+        </header>
+
+
+        <!-- --------------------------------------  -->
+
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I’m Rohit Shahi, a Data Analytics fresher from Dehradun, Uttarakhand. I completed my 12th in 2022 from Kendriya Vidyalaya ITBP, Dehradun, and earned my Bachelor of Arts degree in 2025.</p>
+                <p>I have learned Excel, MySQL, Power BI, and AI tools, and I enjoy working with data to find patterns, create dashboards, and support better decision-making.</p>
+                <p>As a fresher, I am highly motivated to learn, improve my analytical skills, and gain real-world experience in data analytics. I am detail-oriented, curious, and eager to start my professional journey as a Data Analyst.</p>
+
+
+                <a href="./Rohit Shahi CV.pdf" download="My-Portfolio-CV.pdf" class="download-cv">Download CV</a>
+            </div>
+            <div class="about-image">
+                <img src="./About image.png" alt="Profile Picture" class="profile-img">
+            </div>
+        </section>
+
+        <!-- ----------------------------------  -->
+
+        <!-- Add this section after your About section -->
+        <section class="tools-section" id="tools">
+            <div class="tools-heading">
+                <h2>My Tech Stack</h2>
+                <p>Tools and technologies I use to create stunning data visualizations and responsive web applications
+                </p>
+            </div>
+
+            <div class="tools-grid">
+                <!-- <div class="tool-card">
+                <i class="fas fa-table-spreadsheet tool-icon"></i>
+                <h3 class="tool-name">Excel</h3>
+                <p class="tool-desc">Advanced data analysis & pivot tables</p>
+            </div> -->
+
+                <div class="tool-card">
+                    <i class="fas fa-chart-line tool-icon"></i>
+                    <h3 class="tool-name">Excel & Advanced Excel</h3>
+                    <!-- <p class="tool-desc">VLOOKUP, INDEX-MATCH, Power Query</p> -->
+                </div>
+
+                <div class="tool-card">
+                    <i class="fas fa-database tool-icon"></i>
+                    <h3 class="tool-name">MySQL</h3>
+                    <!-- <p class="tool-desc">SQL queries & database management</p> -->
+                </div>
+
+                <div class="tool-card">
+                    <i class="fas fa-chart-bar tool-icon"></i>
+                    <h3 class="tool-name">Power BI</h3>
+                    <!-- <p class="tool-desc">Interactive dashboards & DAX</p> -->
+                </div>
+
+                <div class="tool-card">
+                    <i class="fas fa-robot tool-icon"></i>
+                    <h3 class="tool-name">AI Tools</h3>
+                    <!-- <p class="tool-desc">ChatGPT, Gemini, automation</p> -->
+                </div>
+
+                <!-- <div class="tool-card">
+                    <i class="fas fa-calculator tool-icon"></i>
+                    <h3 class="tool-name">Statistics</h3>
+                    <p class="tool-desc">Hypothesis testing & analytics</p>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ----------------------------------  -->
+
+        <!-- Add this section after your Tools section -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="portfolio-heading">
+                <h2>My Portfolio</h2>
+                <p>Explore my latest data analytics projects and dashboards showcasing Power BI, SQL skills</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <img src="./project 1.jpg" alt="Banking Dashboard" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title" style="color: rgb(70, 6, 70);">TechnoEdge-Business-Performance-Sales-Insights </h3>
+                        <p class="portfolio-desc">The TechnoEdge sales dataset contains a wealth of information about the company's sales performance, including key metrics such as Sales, Quantity, Discount, and Profit. With columns such as Category, Sub-Category, and Product Name, it is possible to analyze performance by product and identify trends and opportunities. Other columns such as Order Date, Dispatch Date, and Ship Mode can provide insights into the company's logistics and supply chain management. Overall, this dataset can help the company make data-driven decisions to improve its sales performance and profitability.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/rohitshahi540/TechnoEdge-Business-Performance-Sales-Insights/blob/main/Dashboard_img.pdf" class="portfolio-link github-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <!-- <a href="#" class="portfolio-link instagram-link">
+                                <i class="fab fa-instagram"></i>
+                                Instagram
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <img src="./project 2.jpg" alt="Pharma Sales" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title" style="color:  rgb(70, 6, 70);">Power-BI-Banking-Domain-Dashboard</h3>
+                        <p class="portfolio-desc">I designed and developed an interactive Power BI dashboard using the TechnoEdge Customers Banking Details dataset. This project focuses on analyzing customer demographics, account types, balances, and loan details to generate meaningful insights for the banking and financial domain.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/rohitshahi540/Power-BI-Banking-Domain-Dashboard-Data-Analytics-Project/blob/main/dashboard.pdf" class="portfolio-link github-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <!-- <a href="#" class="portfolio-link instagram-link">
+                                <i class="fab fa-instagram"></i>
+                                Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <img src="./project 4.jpg" alt="Retail Sales" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title" style="color:  rgb(70, 6, 70);">HR-DOMAIN---POWER-BI-DASHBOARD
+</h3>
+                        <p class="portfolio-desc">TechnoEdge is a company with employees whose details are stored in the given dataset. The dataset includes various employee attributes such as employee ID, name, position, department, and date of birth, date of joining, experience years, phone number, email, address, salary, gender, marital status, nationality, country, emergency contact details, education qualifications, skills, benefits, and attendance details. With this information, TechnoEdge can track and manage their workforce effectively.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/rohitshahi540/HR-DOMAIN---POWER-BI-DASHBOARD/blob/main/powerbi%20dashboard.pdf" class="portfolio-link github-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <!-- <a href="#" class="portfolio-link instagram-link">
+                                <i class="fab fa-instagram"></i>
+                                Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <img src="./project 5.jpg" alt="HR Dashboard" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title" style="color:  rgb(70, 6, 70);">AMAZON-SALES-DASHBOARD</h3>
+                        <p class="portfolio-desc">This project analyzes Amazon sales data (2011–2014) using Power BI to uncover key business insights related to sales performance, profit trends, delivery time, and regional analysis. The dashboard is fully interactive and designed for data-driven decision-making.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/rohitshahi540/AMAZON-SALES-DASHBOARD/blob/main/Project.pdf" class="portfolio-link github-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <!-- <a href="#" class="portfolio-link instagram-link">
+                                <i class="fab fa-instagram"></i>
+                                Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card">
+                    <img src="./project 6.png" alt="HR Dashboard" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title" style="color: rgb(70, 6, 70);">Blinkit-Analysis-Using-SQL</h3>
+                        <p class="portfolio-desc">Cleaning the Item_Fat_Content field ensures data consistency and accuracy in analysis. The presence of multiple variations of the same category (e.g., LF, low fat vs. Low Fat) can cause issues in reporting, aggregations, and filtering. By standardizing these values, we improve data quality, making it easier to generate insights and maintain uniformity in our datasets.</p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/rohitshahi540/Blinkit-Analysis-Using-SQL-/blob/main/BUSINESS%20REQUIREMENT%20pdf.pdf" class="portfolio-link github-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                            <!-- <a href="#" class="portfolio-link instagram-link">
+                                <i class="fab fa-instagram"></i>
+                                Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ----------------------------  -->
+
+        <!-- Add this section after your Portfolio section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-heading">
+                        <h2>Get In Touch</h2>
+                        <p>Ready to discuss your data analytics project? Send me a message and let's create something
+                            amazing together!</p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:rohitshahi540@gmail.com">rohitshahi540@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dehradun, Uttarakhand</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel: 7060845553">+91 7060845553</a>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Fri: 9AM - 7PM IST</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="success-message" id="successMsg">Thank you! Your message has been sent successfully.
+                        I'll get back to you soon! 🎉</div>
+                    <div class="error-message" id="errorMsg">Oops! Something went wrong. Please try again or email me
+                        directly.</div>
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- ---------------------------------------  -->
+        <!-- Add this after your Contact section -->
+        <footer class="footer" id="footer">
+            <div class="footer-container">
+                <!-- About Section -->
+                <div class="footer-section">
+                    <a href="#" class="footer-logo">Rohit Shahi</a>
+                    <!-- <p>Data Analyst from Morādābād, UP specializing in Power BI dashboards, SQL databases, and
+                        responsive web development.</p> -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/rohit_shahi27?igsh=NWFicnN0YzBycG9r" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-shahi-869890383/" class="social-link"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/rohitshahi540" class="social-link"><i class="fab fa-github"></i></a>
+                        <!-- <a href="mailto:rohitshahi540@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a> -->
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="quick-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="quick-links">
+                        <li><a href="#">Power BI Dashboards</a></li>
+                        <li><a href="#">SQL Database </a></li>
+                        <li><a href="#">Data Visualization</a></li>
+                        <!-- <li><a href="#">Web Development</a></li> -->
+                        <li><a href="#">Excel Analytics</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <!-- <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with latest data analytics tips and portfolio updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div> -->
+            </div>
+
+            <div class="footer-bottom">
+                <!-- <p>&copy; 2026 Rohit Shahi. All rights reserved.</p> -->
+                <!-- <p>Made with ❤️ from Morādābād, Uttar Pradesh</p> -->
+            </div>
+        </footer>
+
+        <!-- JS LINK  -->
+         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("YOUR_PUBLIC_KEY"); // 🔁 replace
+  })();
+</script>
+
+        <script src="script.js"></script>
+        <!-- -----------------  -->
+    </body>
+
+</html>
