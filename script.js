@@ -32,7 +32,7 @@ document.addEventListener('click', (e) => {
 // about section 
 
 // Auto-download CV functionality with feedback
-document.querySelector('.download-cv').addEventListener('click', function (e) {
+document.querySelector('.Rohit Shahi CV').addEventListener('click', function (e) {
     // Show brief feedback (optional)
     const originalText = this.textContent;
     this.textContent = 'Downloading...';
